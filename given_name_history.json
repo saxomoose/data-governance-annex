@@ -7,9 +7,7 @@
     },
     "type": "RegisteredNaturalPerson"
   },
-  "attribute": {
-    "attribute": "GivenName"
-  },
+  "attribute": "GivenName"
   "history": [
     {
       "value": ["John", "Jonathan"],
