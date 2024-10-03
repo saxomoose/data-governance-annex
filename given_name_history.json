@@ -2,7 +2,7 @@
   "$id": "given_name_history",
   "subject": {
     "identifier": {
-      "attribute": "InszNumber",
+      "type": "InszNumber",
       "value": "12345678901"
     },
     "type": "RegisteredNaturalPerson"
