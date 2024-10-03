@@ -1,0 +1,48 @@
+{
+  "$id": "given_name_history",
+  "subject": {
+    "identifier": {
+      "$id": "InszNumber",
+      "type": "string",
+      "value": "12345678901"
+    },
+    "type": "RegisteredNaturalPerson"
+  },
+  "attribute": {
+    "attribute": "GivenName"
+  },
+  "history": [
+    {
+      "value": ["John", "Jonathan"],
+      "event": {
+        "identifier": "Event123"
+      },
+      "effectivityStart": {
+        "$id": "DateTime",
+        "type": "string",
+        "value": "2022-01-01T00:00:00Z"
+      },
+      "effectivityEnd": {
+        "$id": "DateTime",
+        "type": "string",
+        "value": "2024-01-01T00:00:00Z"
+      }
+    },
+    {
+      "value": ["John", "Jonathan", "Johnny"],
+      "event": {
+        "identifier": "Event124"
+      },
+      "effectivityStart": {
+        "$id": "DateTime",
+        "type": "string",
+        "value": "2024-01-01T00:00:00Z"
+      },
+      "effectivityEnd": {
+        "$id": "Date",
+        "type": "string",
+        "value": "2025-12-31"
+      }
+    }
+  ]
+}
