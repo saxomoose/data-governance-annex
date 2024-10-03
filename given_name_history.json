@@ -19,16 +19,14 @@
       },
       "effectivityStart": "2022-01-01T00:00:00Z",
       "effectivityEnd": "2024-01-01T00:00:00Z"
-      }
     },
     {
       "value": ["John", "Jonathan", "Johnny"],
       "event": {
         "identifier": "Event124"
       },
-      "effectivityStart": "2024-01-01T00:00:00Z"
+      "effectivityStart": "2024-01-01T00:00:00Z",
       "effectivityEnd": "2025-12-31T00:00:00Z"
-      }
     }
   ]
 }
