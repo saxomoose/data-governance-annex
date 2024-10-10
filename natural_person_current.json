@@ -1,19 +1,16 @@
 {
   "subject": {
     "identifier": {
-      "type": "InszNumber",
+      "type": "NationalRegistrationNumber",
       "value": "12345678901"
     },
     "type": "RegisteredNaturalPerson"
   },
-  "attributes": [
+  "properties": [
     {
       "type": "NaturalPersonRegistration",
       "value": {
-        "person": {
-          "identifier": "123456789"
-        },
-        "register": {}
+        "register": "NationalRegister"
       },
       "effectivityStart": "2024-01-01T00:00:00Z"
     },
