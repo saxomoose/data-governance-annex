@@ -37,8 +37,8 @@
       "type": "Birth",
       "value": {
         "birthTime": "1980-01-01",
-        "birthLocation": {
-          "localityName": "Brussels",
+        "birthPlace": {
+          "muncipalityName": "Brussels",
           "postalCode": "1000",
           "isoAdministrativeSubdivisionCode": [
             "BRU"
@@ -48,22 +48,6 @@
         }
       },
       "effectivityStart": "2024-01-01T00:00:00Z"
-    },
-    {
-      "type": "Death",
-      "value": {
-        "deathTime": "2070-01-01",
-        "deathLocation": {
-          "localityName": "Brussels",
-          "postalCode": "1000",
-          "isoAdministrativeSubdivisionCode": [
-            "BRU"
-          ],
-          "nisCountryCode": "056",
-          "isoAlpha2CountryCode": "BE"
-        }
-      },
-      "effectivityStart": "2070-01-01T00:00:00Z"
     }
   ]
 }
